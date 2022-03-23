@@ -1,0 +1,46 @@
+@font-face {
+  font-family: interSemi;
+  src: url("./Fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: interBold;
+  src: url("./Fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: interLight;
+  src: url("./Fonts/Inter-ExtraLight.ttf");
+}
+
+div {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 100px;
+}
+
+h3 {
+  font-family: interSemi;
+  font-size: 20px;
+}
+
+p {
+  font-family: interLight;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(rgb(75, 108, 183), rgb(24, 40, 72));
+  color: #ffffff;
+}
+
+h1 {
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: interBold;
+  font-size: 28px;
+}
